@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up for Our Weekly Newsletter</title>
+    <link rel="stylesheet" href="newsletter.css">
+  </head>
+  <body id="newsletter">
+    <header id="site_header">
+      <nav class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="newsletter.html">Newsletter</a>
+      </nav>
+    </header>
+    <div>
+
+      <form action="#">
+        <fieldset>
+          <h1>Sign Up for Our Weekly Newsletter</h1>
+          <h2>Stay up to date with events, activities, news and specials.</h2>
+          <div class="name">
+            <label for="name_">Name</label>
+            <input type="line" name="name_" id="name_">
+          </div>
+          <div class="name">
+            <label for="name_">Email</label>
+            <input type="line" name="name_" id="name_">
+          </div>
+
+
+        <div class="submit_container">
+          <input type="submit" id="submit_button" value="Submit!">
+        </div>
+        </fieldset>
+      </form>
+    </div>
+
+  </body>
+
+</html>
